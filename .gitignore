@@ -1,0 +1,6 @@
+.env
+.tox/
+build/
+dist/
+*.egg-info/
+*.spec

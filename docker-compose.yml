@@ -1,0 +1,10 @@
+services:
+  ia_base:
+    hostname:         ia_base.innovanon.com
+    build:
+      context:        .
+      tags:
+        - innovanon/ia_base:latest
+    restart:          no
+    logging:
+      driver:         syslog   
