@@ -6,6 +6,8 @@ services:
       tags:
         - innovanon/ia_base:latest
         -           ia_base:latest
+        - innovanon/ia_base
+        -           ia_base
     restart:          no
     logging:
       driver:         syslog   
