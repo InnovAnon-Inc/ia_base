@@ -5,6 +5,7 @@ services:
       context:        .
       tags:
         - innovanon/ia_base:latest
+        -           ia_base:latest
     restart:          no
     logging:
       driver:         syslog   
